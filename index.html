@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link href="index.css" rel="stylesheet">
+  <title>Frontend Mentor | Results summary component</title>
+</head>
+<body>
+  <main>
+    <div class="result">
+      <p id="result">Your Result</p>
+      <div class="score">
+        <h1>76</h1>
+        <p>of 100</p>
+      </div>
+      <h4>Great</h4>
+      <p>You scored higher than 65% of the people who have taken these tests.</p>
+    </div>
+    <div class="summary">
+      <h2>Summary</h2>
+      <div class="options">
+        <div id="reaction">
+          <div class="icon">
+            <img src="assets\images\icon-reaction.svg" alt="Reaction Icon">
+            <p id="reaction-title">Reaction</p>
+          </div>
+          <p class="sub-score"><span>80</span> / 100</p>
+        </div>
+        <div id="memory">
+          <div class="icon">
+            <img src="assets\images\icon-memory.svg" alt="Memory Icon">
+            <p id="memory-title">Memory</p>
+          </div>
+          <p class="sub-score"><span>92</span> / 100</p>
+        </div>
+        <div id="verbal">
+          <div class="icon">
+            <img src="assets\images\icon-verbal.svg" alt="Verbal Icon">
+            <p id="verbal-title">Verbal</p>
+          </div>
+          <p class="sub-score"><span>61</span> / 100</p>
+        </div>
+        <div id="visual">
+          <div class="icon">
+            <img src="assets\images\icon-visual.svg" alt="Visual Icon">
+            <p id="visual-title">Visual</p>
+          </div>
+          <p class="sub-score"><span>72</span> / 100</p>
+        </div>
+      </div>
+      <button type="submit">Continue</button>
+    </div>
+  </main>
+  <script src="index.js"></script>
+</body>
+</html>
